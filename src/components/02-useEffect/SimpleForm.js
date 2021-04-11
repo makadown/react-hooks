@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import './effects.css'
+import { Message } from './Message';
 
 export const SimpleForm = () => {
 
@@ -11,18 +12,18 @@ export const SimpleForm = () => {
     const {name, email} = formState;
 
     useEffect(() => {
-       console.log('hey!');
+        
     }, []); // si no le pongo el [], este useEffect correra siempre, 
     // es decir, cada que presione boton en input
 
     // Este se trigeará cada que cambie el valor de todo el formulario
     useEffect(() => {
-        console.log('formState ha cambiado');
+        
     }, [formState]);
 
     useEffect(() => {
-        console.log('email ha cambiado');
-    }, [email])
+        
+    }, [email]);
 
     const handleInputChange = ({target}) => {
         // los [] ayudan para encontrar dinamicamente 
@@ -55,6 +56,10 @@ export const SimpleForm = () => {
                     aria-describedby="email"/>
               <small id="email" className="text-muted">Email</small>
             </div>
+
+            {
+               (name === '123') && <Message />
+            }
         </>
     )
 }
