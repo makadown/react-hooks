@@ -5,12 +5,12 @@ body {
   font-family: 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color: aqua;
+  color: white;
   background-color: black;
 }
 
 code {
   font-family: 'Fira Sans', 'Courier New',sans-serif, monospace;
-  color: aqua;
+  color: white;
   background-color: black;
 }
