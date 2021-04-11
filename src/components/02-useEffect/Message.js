@@ -15,7 +15,7 @@ export const Message = () => {
         window.addEventListener('mousemove', mouseMoveListener );
         return () => {
             window.removeEventListener('mousemove', mouseMoveListener)
-        }
+        };
     }, []);
 
     return (
