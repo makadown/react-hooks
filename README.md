@@ -1,6 +1,10 @@
-# Getting Started with Create React App
+# Hook App
+
+App ReactJS para practicar Hooks
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+Aplicacion creada durante curso https://www.udemy.com/course/react-cero-experto
 
 ## Available Scripts
 

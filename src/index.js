@@ -1,13 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import CounterApp from './components/01-useState/CounterApp';
+import HookApp from './HookApp';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+    <CounterApp />,
   document.getElementById('root')
 );
 
