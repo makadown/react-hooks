@@ -9,7 +9,7 @@ const CounterApp = () => {
                 counter4: 40
             });
     const {counter1, counter2} = state;
-
+// Esto del         ...state           es MUY IMPORTANTE!!!
     return (
         <>
             {/* <h1>Counter {counter}</h1> */}
