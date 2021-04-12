@@ -6,6 +6,14 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 Aplicacion creada durante curso https://www.udemy.com/course/react-cero-experto
 
+## Recursos
+
+Breaking bad API
+```
+https://breakingbadapi.com/
+```
+
+
 ## Available Scripts
 
 In the project directory, you can run:
