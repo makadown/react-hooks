@@ -13,6 +13,10 @@ Breaking bad API
 https://breakingbadapi.com/
 ```
 
+useLayoutEffects (documentacion)
+```
+https://es.reactjs.org/docs/hooks-reference.html#uselayouteffect
+```
 
 ## Available Scripts
 
