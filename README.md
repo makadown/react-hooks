@@ -6,7 +6,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 Aplicacion creada durante curso https://www.udemy.com/course/react-cero-experto
 
-Publicado en http://makadown.github.io/hook-app
+Publicado en http://makadown.github.io/react-hooks
 
 ## Recursos
 
