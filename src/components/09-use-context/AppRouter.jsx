@@ -1,13 +1,17 @@
 import React from 'react';
-import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
+import { BrowserRouter as Router, Switch, Route, Link, Redirect } from 'react-router-dom';
+import { NavBar } from './NavBar';
+
 import { AboutScreen } from './AboutScreen';
 import { HomeScreen } from './HomeScreen';
 import { LoginScreen } from './LoginScreen';
 
 export const AppRouter = () => {
+    
   return (
     <Router>
       <div> 
+          <NavBar></NavBar>
         {/* A <Switch> looks through its children <Route>s and
             renders the first one that matches the current URL. */}
         <Switch>
@@ -19,6 +23,8 @@ export const AppRouter = () => {
           </Route>
           <Route exact path="/home" component={HomeScreen}>
           </Route>
+          <Redirect to="/">
+          </Redirect>
         </Switch>
       </div> 
     </Router>
