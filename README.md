@@ -1,10 +1,12 @@
-# Hook App
+# Hook App (TODO App)
 
-App ReactJS para practicar Hooks
+App ReactJS para practicar Hooks y useReducer
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 Aplicacion creada durante curso https://www.udemy.com/course/react-cero-experto
+
+Publicado en http://makadown.github.io/hook-app
 
 ## Recursos
 
