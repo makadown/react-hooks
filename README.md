@@ -20,6 +20,16 @@ useLayoutEffects (documentacion)
 https://es.reactjs.org/docs/hooks-reference.html#uselayouteffect
 ```
 
+react-hooks-testing-library 
+```
+https://react-hooks-testing-library.com/
+```
+
+Enzyme para React 17 ( al dia 18 de Abril de 2021)
+```
+https://www.npmjs.com/package/@wojtekmaj/enzyme-adapter-react-17
+``` 
+
 ## Available Scripts
 
 In the project directory, you can run:

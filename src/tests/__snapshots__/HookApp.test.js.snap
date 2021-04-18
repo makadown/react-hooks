@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests Raices Debe cargar  1`] = `
+<div>
+  <h1>
+    Hola Hooks!
+  </h1>
+</div>
+`;
