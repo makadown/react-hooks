@@ -1,3 +1,6 @@
+/**
+ * Arreglo auxiliar exclusivo para los tests
+ */
 export const demoTodos = [{
     id: 1,
     desc: 'Aprender React',

@@ -21,3 +21,5 @@ export const TodoList = memo((props) => {
     )
 }
 );
+// Para que en los tests no se haga bolas con el memo
+TodoList.displayName='TodoList';

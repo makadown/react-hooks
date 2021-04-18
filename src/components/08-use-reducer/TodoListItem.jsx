@@ -37,3 +37,5 @@ export const TodoListItem = memo((props) => {
     </li>
   );
 });
+// Para que en los tests no se haga bolas con el memo
+TodoListItem.displayName='TodoListItem';
