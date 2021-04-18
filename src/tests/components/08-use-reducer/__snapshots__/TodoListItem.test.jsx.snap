@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en componente TodoListItem Debe de mostrar TodoListItem correctamente 1`] = `
+<li
+  className="list-group-item list-group-item-dark d-flex justify-content-between align-items-start"
+  key="1"
+>
+  <div
+    className="ms-2 me-auto"
+  >
+    <div
+      className="fw-bold"
+    >
+      <p
+        className="none"
+        onClick={[Function]}
+      >
+        1
+        .- 
+        Aprender React
+      </p>
+    </div>
+    Pendiente
+  </div>
+  <span>
+    <button
+      className="btn btn-danger"
+      disabled={true}
+      onClick={[Function]}
+    >
+      Borrar
+    </button>
+  </span>
+</li>
+`;

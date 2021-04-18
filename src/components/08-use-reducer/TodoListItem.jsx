@@ -1,8 +1,14 @@
 import React, { memo } from 'react';
 
 export const TodoListItem = memo((props) => {
-  console.log('props de todolistitem', props);
+  // console.log('props de todolistitem', props);
   const { todo, index, handleDelete, handleToggle } = props;
+
+  let nombreClase = 'none';
+  
+  if (todo.done && todo.done === true) {
+    nombreClase = 'complete disabled';
+  }
 
   return (
     <li
@@ -12,13 +18,13 @@ export const TodoListItem = memo((props) => {
       <div className="ms-2 me-auto">
         <div className="fw-bold">
           <p
-            className={`${todo.done && 'complete disabled'}`}
+            className={nombreClase}
             onClick={() => handleToggle(todo.id)}
           >
             {index + 1}.- {todo.desc}
           </p>
         </div>
-        {todo.done ? 'Finalizado' : 'Pendiente'}
+        { todo.done ? 'Finalizado' : 'Pendiente'}
       </div>
       <span>
         <button disabled={!todo.done}
