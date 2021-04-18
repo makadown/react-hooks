@@ -41,6 +41,9 @@ describe('Tests en Hook de useCounter', () => {
         const {result} = renderHook( () => useCounter(100) );
         const {increment, reset} = result.current;
         act( () => {
+            // aqui solo puedo invocar cada metodo 1 sola vez!
+            // es decir, no puedo invocar aqui 2 veces el increment.
+            // ver documentación oficial!
             increment(4);
             reset();
         });
